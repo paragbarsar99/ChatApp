@@ -1,7 +1,7 @@
-import { combineReducers } from "redux";
-import FetchProductReducer from './getthedataReducer'
-
+import {combineReducers} from 'redux';
+import {FetchAllUsersDataReducer, UserListReducer} from './getthedataReducer';
 
 export default rootReducers = combineReducers({
-    Fetch: FetchProductReducer
-})
+  UserData: FetchAllUsersDataReducer,
+  ListOfUser: UserListReducer,
+});
